@@ -12,6 +12,8 @@
 		DEFE6DFA1E7622D9007EEABF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DEFE6DF81E7622D9007EEABF /* Main.storyboard */; };
 		DEFE6DFC1E7622D9007EEABF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DEFE6DFB1E7622D9007EEABF /* Assets.xcassets */; };
 		DEFE6DFF1E7622D9007EEABF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DEFE6DFD1E7622D9007EEABF /* LaunchScreen.storyboard */; };
+		DEFE6E071E766635007EEABF /* ProFontWindows.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DEFE6E061E766635007EEABF /* ProFontWindows.ttf */; };
+		DEFE6E091E766E22007EEABF /* btn.wav in Resources */ = {isa = PBXBuildFile; fileRef = DEFE6E081E766E22007EEABF /* btn.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		DEFE6DFB1E7622D9007EEABF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DEFE6DFE1E7622D9007EEABF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DEFE6E001E7622D9007EEABF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DEFE6E061E766635007EEABF /* ProFontWindows.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = ProFontWindows.ttf; sourceTree = "<group>"; };
+		DEFE6E081E766E22007EEABF /* btn.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = btn.wav; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +58,8 @@
 		DEFE6DF31E7622D9007EEABF /* RetroCalculator */ = {
 			isa = PBXGroup;
 			children = (
+				DEFE6E081E766E22007EEABF /* btn.wav */,
+				DEFE6E061E766635007EEABF /* ProFontWindows.ttf */,
 				DEFE6DF41E7622D9007EEABF /* AppDelegate.swift */,
 				DEFE6DF61E7622D9007EEABF /* ViewController.swift */,
 				DEFE6DF81E7622D9007EEABF /* Main.storyboard */,
@@ -124,7 +130,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DEFE6E091E766E22007EEABF /* btn.wav in Resources */,
 				DEFE6DFF1E7622D9007EEABF /* LaunchScreen.storyboard in Resources */,
+				DEFE6E071E766635007EEABF /* ProFontWindows.ttf in Resources */,
 				DEFE6DFC1E7622D9007EEABF /* Assets.xcassets in Resources */,
 				DEFE6DFA1E7622D9007EEABF /* Main.storyboard in Resources */,
 			);
