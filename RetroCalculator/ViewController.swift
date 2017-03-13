@@ -48,7 +48,6 @@ class ViewController: UIViewController {
     
     @IBAction func numberPressed(sender: UIButton){
         playSound()
-        
         runningNumber += "\(sender.tag)"
         resultsLabel.text = runningNumber
     }
